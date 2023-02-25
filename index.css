@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url("../assets/bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+nav{
+    padding: 10px 10px;
+    height: 10vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 6%;
+   
+}
+nav button{
+    display: block;
+    margin-left: 450px;
+    background-color: rgb(252, 20, 229);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+main h1{
+    font-size: 70px;
+}
+main p{
+     margin-left: 150px;
+}
+main button{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color:rgb(252, 9, 195) ;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+}
+nav{
+    background-color: black;
+}
